@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<tittle>Hello, World!</tittle>
+<meta charset = "UT-8">
+<!--// кодировка, стили, шрифты (нельзя вводить инфу для пользователя)
+теги верхнего уровня: <head>, <body>, <html>-->
+<style type="text/css">
+TABLE {
+width: 50%;
+height: 100%;
+vertical-align: top;
+text-align: center;
+}
+TH {
+background-color: green;
+}
+TD, HR {
+    border-left: 1px dashed black;
+   }
+   .even {
+    background: #dcdcdc;
+   } 
+</style>
+</head>
+<body>
+<p align= "center"><a href= "mailto:dasf@yandex.ru">link</a></p>
+<p><a href="beging.html">link to file</a></p>
+<caption text-align="center">Header of table</caption>
+<table border = "1" cellpadding="0" cellspacing="2" span="4" text-align="center">
+<tr>
+<th>colomn1</th>
+<th>colomn2</th>
+<th>colom3</th>
+<th>colom4</th>
+</tr>
+<tr  rowspan="12" ><td>34,5</td><td>3,5</td><td>36</td><td>23</td></tr>
+<tr><td valign="top">23.4</td><td>4.2</td><td>37</td><td>232</td></tr>
+<tr><td>12.8</td><td>8,5</td><td>39</td><td>273</td></tr>
+<tr><td>21.6</td><td>7,6</td><td>43</td><td>24</td></tr>
+</table>
+
+<form action="mailto:vlad@htmlbook.ru" enctype="text/plain">
+  <p><input type="submit" value="Написать письмо"></p>
+ </form> 
+ <HR>
+ 
+<form action="mailto:dsfgdf@ya.ru">
+<p><b>Пример формы №1</b></p>
+<p> <input type="radio" name = "answer" value = "a1"> variant 1<Br>
+<input type="radio" name = "answer" value = "a2"> variant 2<Br>
+<input type="radio" name = "answer" value = "a3"> variant 3 </p>
+<p> <input type="submit"></p>
+</form>
+
+    <embed src="images/mouse.swf" width="400" height="300" 
+           type="application/x-shockwave-flash"
+           pluginspage="http://www.macromedia.com/go/getflashplayer">  
+</body>
+</body>
+</html>
